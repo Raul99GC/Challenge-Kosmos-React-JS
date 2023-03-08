@@ -1,10 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
-import Moveable from "react-moveable";
 import { Component } from "./Component";
 
 const App = () => {
   const [moveableComponents, setMoveableComponents] = useState([]);
-  const [number, setNumber] = useState(0)
   const [selected, setSelected] = useState(null);
 
   const addMoveable = async () => {
