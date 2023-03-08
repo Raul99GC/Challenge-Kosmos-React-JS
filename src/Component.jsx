@@ -26,6 +26,7 @@ export const Component = ({
     index,
     color,
     id,
+    backgroundImage
   });
 
   let parent = document.getElementById("parent");
@@ -138,6 +139,7 @@ export const Component = ({
             width,
             height,
             color,
+            backgroundImage
           });
         }}
         onResize={onResize}
